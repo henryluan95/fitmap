@@ -50,9 +50,19 @@ a:visited {
 }
 
 .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.logo__text {
+  font-size: 2rem;
+}
+
+.logo__image {
   height: 5.2rem;
   align-self: center;
-  margin-bottom: 4rem;
 }
 
 .workouts {
